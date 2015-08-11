@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" > 
+<item >
+    <shape android:shape="rectangle"  >
+         <corners android:radius="2dip" />
+         <stroke android:width="1dip" android:color="#57BA48" />
+         <gradient android:startColor="#57BA48" android:endColor="#57BA48" />
+         <corners android:radius="2dip"/>              
+     </shape>
+ </item>
+</selector><!-- From: file:/root/StudioProjects/GeekShare/app/src/main/res/drawable/button_rounded_corners_green2.xml -->

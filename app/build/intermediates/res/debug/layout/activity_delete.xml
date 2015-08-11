@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+   >
+
+    <View
+        android:id="@+id/shadowView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+         />
+
+    <RelativeLayout
+        android:id="@+id/innerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/background_list" >
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerCrop" 
+            android:src="@drawable/ic_launcher_play_apps"/>
+
+        <TextView
+            android:id="@+id/mname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/list_image"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+	 		/>
+        
+           <TextView
+            android:id="@+id/mauthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/mname"
+            android:layout_toRightOf="@+id/list_image"
+            android:textSize="13sp"
+            android:textColor="#7D7A7A"
+	 		/>
+           
+           <TextView
+            android:id="@+id/mnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/mname"
+            android:layout_toRightOf="@+id/list_image"
+            android:textSize="13sp"
+            android:textColor="#7D7A7A"
+            android:visibility="gone"
+	 		/>
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/root/StudioProjects/GeekShare/app/src/main/res/layout/activity_delete.xml -->

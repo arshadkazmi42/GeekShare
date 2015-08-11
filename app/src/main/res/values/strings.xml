@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeekShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="add_movie">Add Movie</string>
+    <string name="movie_author">Your Name</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="movies">MOVIES</string>
+    <string name="games">GAMES</string>
+    <string name="soft">SOFTWARES</string>
+    <string name="series">SERIES</string>
+    <string name="songs">SONGS</string>
+    <string name="others">BOOKS</string>
+    <string name="more">MORE</string>
+    <string name="latest_movies">LATEST MOVIES</string>
+    <string name="latest_songs">LATEST SONGS</string>    
+    <string name="latest_soft">LATEST SOFTWARES</string>
+    <string name="latest_series">LATEST SERIES</string>
+    <string name="latest_others">LATEST BOOKS</string>
+    <string name="latest_games">LATEST GAMES</string>
+    <string name="latest">New + Latest Updates</string>
+    <string name="fromall">from all categories</string>
+    
+    <string name="submit">Save</string>
+    <string name="mobile">Your Mobile Number</string>
+    <string name="yourName">Your Name</string>
+    
+    <string name="search">Search</string>
+    <string name="add_new">Add new</string>
+    
+    <string name="banner_ad_unit_id">ca-app-pub-4936337593833665/4075770613</string>
+
+</resources>

@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:background="#3CA96B"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"            
+            android:background="@drawable/logo"
+            android:contentDescription="@string/latest_games"/>
+
+    </LinearLayout>
+
+    <LinearLayout 
+    	android:id="@+id/email_login_form" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:padding="20sp"        
+        android:layout_margin="10sp"
+        >
+		
+        <EditText 
+            android:id="@+id/yourName" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:hint="@string/yourName"
+           	android:inputType="text"
+            android:maxLines="1" 
+            android:singleLine="true"
+            android:layout_marginBottom="10dp"  
+            android:background="@drawable/background_list"
+            android:padding="5sp"
+            android:drawableLeft="@drawable/ic_action_person"
+            />
+        
+        <EditText 
+            android:id="@+id/yourNumber" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:hint="@string/mobile"
+           	android:inputType="number"
+            android:maxLines="1" 
+            android:singleLine="true"
+            android:layout_marginBottom="10dp"            
+            android:background="@drawable/background_list"         
+             
+            android:padding="5sp"
+            android:drawableLeft="@drawable/ic_action_call" />
+
+        <Button 
+             android:id="@+id/submit" 
+             android:layout_width="match_parent" 
+             android:layout_height="wrap_content"
+			 android:layout_marginTop="16dp" 
+			 android:text="@string/submit"
+			 android:textStyle="bold"
+			 android:textColor="#ffffffff"
+			 android:background="@drawable/button_rounded_corners_green2"
+			  />
+
+	</LinearLayout>
+</LinearLayout>
+        

@@ -1,0 +1,5 @@
+ <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+        <solid android:color="#0D7F57"/>
+        <stroke android:width="2sp" android:color="#0D7F57" />
+    </shape><!-- From: file:/root/StudioProjects/GeekShare/app/src/main/res/drawable/button_circle.xml -->
